@@ -1,6 +1,6 @@
-*{
-  /* border: 2px solid red; */
-}
+/* *{
+  border: 2px solid red;
+} */
 
 footer {
   margin-top: 10vmax;
@@ -184,13 +184,18 @@ footer {
   .links ul li::before {
     content: none;
   }
+
+  .newsletter input{
+    margin:0 10px;
+  }
   
-  input{
+  input[type="email"]{
     width: 80%;
     padding:7px;
     border-radius: 5px;
     background: transparent;
     border: 1px solid white;
+    
   }
   
   

@@ -22,11 +22,11 @@ const Footer = () => {
         <form action="">
           <div className="row d-flex justify-content-center">
             <div className="col-auto">
-              <p className="pt-2">
+              <p className="pt-2 mt-2">
                 <strong>Sign up for our newsletter</strong>
               </p>
             </div>
-            <div className="col-md-5 col-12">
+            <div className="col-md-5 col-12 mt-2">
               
                 <input type="email" classname="inputmail"
                 placeholder="Email"/>
