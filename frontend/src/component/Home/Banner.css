@@ -1,0 +1,19 @@
+.banner_img {
+    width: 100vw;
+    height: 350px;
+}
+
+.carasousel {
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .banner_img {
+        object-fit: cover;
+        height: 180px;
+    }
+        .carasousel {
+            margin-top: 50px;
+        }
+}
